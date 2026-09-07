@@ -12,7 +12,7 @@ location = 20
 backgroundmusic = pyglet.resource.media('music.wav')
 deathsound = pyglet.resource.media('deathsound.wav')
 endmusic = pyglet.resource.media('endmusic.wav')
-score = 1
+score = 99
 def center_image(im):
     im.anchor_x = im.width // 2
     im.anchor_y = im.height // 2
