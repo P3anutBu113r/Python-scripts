@@ -1,12 +1,13 @@
 import random
 mainloop = True
 guesses = 10
+wordlist_path = "" #chuck a path to a wordlist here
 wantedlength = int(input("Enter the length of the word you want: "))
 if wantedlength <= 0:
     print("invalid length")
 
 findloop = True
-with open(<your wordlist>, "r") as everyword:
+with open(wordlist_path, "r") as everyword:
     potential_words = everyword.read().splitlines()
 
 
