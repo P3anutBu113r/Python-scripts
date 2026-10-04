@@ -69,3 +69,4 @@ while True:
     cursor.execute('')
     print(cursor.fetchall())
     modeselect()
+#why the fuck wont this commit
